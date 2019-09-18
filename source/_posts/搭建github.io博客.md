@@ -1,7 +1,7 @@
 
-title
-## 搭建github.io博客
-title
+---
+title: 搭建github.io博客
+---
 
 ### 一、Create a github Repository username.github.io 
 
