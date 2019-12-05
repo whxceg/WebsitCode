@@ -1,6 +1,17 @@
 ---
-title: Git 常用命令
+title: SVN,Git 常用命令
 ---
+
+SVN
+### SVN 克隆项目
+``` bash
+$ svn co http://xxxxxxxx
+```
+
+### SVN 命令行add 所有未添加的文件
+``` bash
+$ svn add . --no-ignore --force
+```
 
 仓库
 ### 在当前目录新建一个Git代码库

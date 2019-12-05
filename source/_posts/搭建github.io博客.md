@@ -7,6 +7,10 @@ title: 搭建github.io博客
 
 ### 二、搭建Hexo
 #### 1、安装Node.js和Git
+``` bash
+sudo apt install -y nodejs npm
+sudo apt install git
+```
 #### 2、安装Hexo
 ``` bash
 sudo npm install hexo-cli -g
@@ -14,7 +18,7 @@ sudo npm install hexo-cli -g
 #### 3、创建hexo
 ``` bash
 hexo init
-nmp install
+npm install
 hexo g
 hexo s
 ```
